@@ -1,0 +1,38 @@
+:root{
+    --background: burlywood;
+    --text-color: green;
+
+}
+.header{
+    background-color: var(--background);
+}
+.menu-color{
+    color:var(--text-color);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.header img{
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.hero-container{
+    background-color: var(--background);
+}
+.hero-container img{
+    border-radius: 50%;
+}
+.hero-text h1 span, .hero-text p{
+    color: var(--text-color);
+}
+.delivery-process h2, .healthy h2{
+    color: var(--text-color);
+}
+.healthy{
+    background-color: var(--background);
+}
+.slider{
+    background-image: url("../assets/images/veg.png");
+}
